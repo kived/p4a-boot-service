@@ -16,3 +16,5 @@ boot service example for python-for-android
 
     2. Or copy the provided `AndroidManifest.tmpl.xml` over the file
 3. Build the APK (`build_apk.sh`)
+4. Install the APK (`adb install -r ServiceTest-1.0-debug.apk`)
+5. **Run the app** - if you don't run the app, the boot receiver will not be registered
