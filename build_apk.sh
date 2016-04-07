@@ -1,0 +1,11 @@
+p4a apk --private package \
+		--package org.kivy.servtest \
+		--name=ServiceTest \
+		--version=1.0 \
+		--dist_name=servtest \
+		--bootstrap=sdl2 \
+		--requirements=hostpython2,python2,kivy \
+		--add-source=src \
+		--service=myservice:service.py \
+		--permission=RECEIVE_BOOT_COMPLETED \
+		--arch=armeabi-v7a
